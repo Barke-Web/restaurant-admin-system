@@ -26,8 +26,8 @@ export default function ReportsPage() {
 
       {/* Main content */}
       <main className="flex-1 p-6">
-        <h1 className="text-2xl font-bold mb-6">Reports</h1>
-
+        <h1 className="text-2xl font-bold mb-1">Reports</h1>
+        <p className="mb-4">View and export orders and sales data</p>
         {/* ✅ Export buttons appear here */}
         <ExportOptions data={currentData} />
 
