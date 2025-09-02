@@ -158,7 +158,6 @@ export function ReportsTable({ onFilteredData }: ReportsTableProps) {
                   <th className="text-left p-4 font-medium">Items</th>
                   <th className="text-left p-4 font-medium">Total</th>
                   <th className="text-left p-4 font-medium">Date</th>
-                  <th className="text-left p-4 font-medium">Status</th>
                 </tr>
               </thead>
               <tbody>
@@ -173,9 +172,6 @@ export function ReportsTable({ onFilteredData }: ReportsTableProps) {
                     <td className="p-4">${item.total.toFixed(2)}</td>
                     <td className="p-4">{item.date}</td>
                     <td className="p-4">
-                      <Badge variant={item.status === "Completed" ? "default" : "secondary"}>
-                        {item.status}
-                      </Badge>
                     </td>
                   </tr>
                 ))}
