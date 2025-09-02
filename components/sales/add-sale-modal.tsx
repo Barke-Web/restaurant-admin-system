@@ -56,7 +56,6 @@ export function AddSaleModal({ onAddSale }: AddSaleModalProps) {
     setSelectedItem("")
     setQuantity(1)
     setDiscount(0)
-    setOpen(false)
   }
 
   return (

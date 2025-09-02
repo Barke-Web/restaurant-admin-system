@@ -95,7 +95,6 @@ export function AddOrderModal({ onAddOrder }: AddOrderModalProps) {
     setSelectedItems([])
     setPaymentMethod("")
     setDiscount(0)
-    setOpen(false)
   }
 
   return (
